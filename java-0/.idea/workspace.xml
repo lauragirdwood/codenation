@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df78d9bf-452f-45e1-b85d-e3c5753c44a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bpru9sdzSSUMvS9nOeug6njHuS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-1" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java-0.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'java-0.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'java-0.test'" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df78d9bf-452f-45e1-b85d-e3c5753c44a5" name="Default Changelist" comment="" />
+      <created>1589340095683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589340095683</updated>
+      <workItem from="1589340102415" duration="7186000" />
+      <workItem from="1589416527258" duration="402000" />
+      <workItem from="1589417347158" duration="1771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589419250231">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1589419250231" />
+    <state width="1253" height="104" key="GridCell.Tab.0.bottom" timestamp="1589419274723">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="104" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1589419274723" />
+    <state width="1253" height="104" key="GridCell.Tab.0.center" timestamp="1589419274722">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="104" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1589419274722" />
+    <state width="1253" height="104" key="GridCell.Tab.0.left" timestamp="1589419274722">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="104" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1589419274722" />
+    <state width="1253" height="104" key="GridCell.Tab.0.right" timestamp="1589419274722">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="104" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1589419274722" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1589416909206">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1589416909206" />
+    <state x="599" y="339" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1589416907363">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="599" y="339" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/67.27.1299.741@67.27.1299.741" timestamp="1589416907363" />
+    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1589418400569">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1589418400569" />
+  </component>
+</project>
