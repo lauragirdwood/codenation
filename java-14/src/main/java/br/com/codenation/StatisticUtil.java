@@ -27,7 +27,7 @@ public class StatisticUtil {
 	public static int median(int[] elements) {
 		int elementsSize = elements.length;
 		if(elementsSize % 2 != 0) {
-			return elements[(elementsSize + 1)/2];
+			return elements[(elementsSize - 1)/2];
 		} else {
 			return elements[elementsSize/2] + elements[((elementsSize/2) + 1)/ 2];
 		}
