@@ -12,7 +12,7 @@ public class Time {
     private String corUniformePrincipal;
     private String corUniformeSecundario;
     private List<Jogador> jogadores = new ArrayList<>();
-    private Jogador capitao;
+    private Long idJogadorCapitao;
 
     public void setId(Long id) {
         this.id = id;
@@ -71,12 +71,12 @@ public class Time {
         return corUniformeSecundario;
     }
 
-    public Jogador getCapitao() {
-        return capitao;
+    public Long getIdJogadorCapitao() {
+        return idJogadorCapitao;
     }
 
-    public void setCapitao(Jogador capitao) {
-        this.capitao = capitao;
+    public void setCapitao(Long idCapitao) {
+        this.idJogadorCapitao = idCapitao;
     }
 
     @Override
@@ -88,7 +88,7 @@ public class Time {
                 ", corUniformePrincipal='" + corUniformePrincipal + '\'' +
                 ", corUniformeSecundario='" + corUniformeSecundario + '\'' +
                 ", jogadores=" + jogadores +
-                ", capitao=" + capitao +
+                ", capitao=" + idJogadorCapitao +
                 '}';
     }
 }

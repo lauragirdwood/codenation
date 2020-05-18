@@ -35,34 +35,28 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 	public void incluirJogador(Long id, Long idTime, String nome, LocalDate dataNascimento,
 							   Integer nivelHabilidade, BigDecimal salario) {
 
-		Time time = buscarTimePorId(idTime);
 		if (jogadores.stream().anyMatch(jogador -> jogador.getId().equals(id))) {
 			throw new IdentificadorUtilizadoException("Identificador já utilizado");
 		}
-		jogadores.add(new Jogador(id, time.getId(), nome, dataNascimento, nivelHabilidade, salario));
+		Time time = buscarEValidarPeloIdSeTimeExiste(idTime);
+
+		Jogador jogador = new Jogador(id, time.getId(), nome, dataNascimento, nivelHabilidade, salario);
+		jogadores.add(jogador);
 	}
 
 	//ok
 	@Desafio("definirCapitao")
 	public void definirCapitao(Long idJogador) {
-		Jogador novoCapitao = buscarJogadorPorId(idJogador);
-		Time time = buscarTimePorId(novoCapitao.getIdTime());
-		novoCapitao.setCapitao(true);
-
-		Jogador antigoCapitao = time.getCapitao();
-
-		if (antigoCapitao != null) {
-			antigoCapitao.setCapitao(false);
-		}
-		time.setCapitao(novoCapitao);
+		Jogador jogadorCapitao = buscarEValidarPeloIdSeJogadorExiste(idJogador);
+		Time time = buscarEValidarPeloIdSeTimeExiste(jogadorCapitao.getIdTime());
+		time.setCapitao(jogadorCapitao.getId());
 	}
 
 	//ok
 	@Desafio("buscarCapitaoDoTime")
 	public Long buscarCapitaoDoTime(Long idTime) {
-		Jogador capitao = buscarTimePorId(idTime).getCapitao();
-		if (capitao != null) {
-			return capitao.getId();
+		if (buscarEValidarPeloIdSeTimeExiste(idTime).getIdJogadorCapitao() != null) {
+			return buscarEValidarPeloIdSeTimeExiste(idTime).getIdJogadorCapitao();
 		} else {
 			throw new CapitaoNaoInformadoException();
 		}
@@ -71,71 +65,65 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 	// ok
 	@Desafio("buscarNomeJogador")
 	public String buscarNomeJogador(Long idJogador) {
-			return buscarJogadorPorId(idJogador).getNome();
+			return buscarEValidarPeloIdSeJogadorExiste(idJogador).getNome();
 	}
 
 	// ok
 	@Desafio("buscarNomeTime")
 	public String buscarNomeTime(Long idTime) {
-			return buscarTimePorId(idTime).getNome();
+			return buscarEValidarPeloIdSeTimeExiste(idTime).getNome();
 	}
 
 	// ok
 	@Desafio("buscarJogadoresDoTime")
 	public List<Long> buscarJogadoresDoTime(Long idTime) {
-		Time time = buscarTimePorId(idTime);
+		Long idTimeBuscado = buscarEValidarPeloIdSeTimeExiste(idTime).getId();
 			return jogadores.stream()
-					.filter(jogador -> jogador.getIdTime().equals(idTime))
+					.filter(jogador -> jogador.getIdTime().equals(idTimeBuscado))
 					.map(Jogador::getId)
 					.collect(Collectors.toList());
 	}
 
-	 // ok
 	@Desafio("buscarMelhorJogadorDoTime")
 	public Long buscarMelhorJogadorDoTime(Long idTime) {
-		Time time = buscarTimePorId(idTime);
+		Long idTimeBuscado = buscarEValidarPeloIdSeTimeExiste(idTime).getId();
 		return jogadores.stream()
-					.filter(jogador -> jogador.getIdTime().equals(idTime))	// filtra os jogadores do time específico em questão
-					.max(Comparator.comparingInt(Jogador::getNivelHabilidade))	// pega o jogador que tem o maior nivel de habilidade
-					.map(Jogador::getId).get();								// retorna o id do jogador encontrado
-	}
-
-	// ok
-	@Desafio("buscarJogadorMaisVelho")
-	public Long buscarJogadorMaisVelho(Long idTime) {
-		Time time = buscarTimePorId(idTime);
-			return jogadores.stream()
-					.filter(jogador -> jogador.getIdTime().equals(idTime))
-					.min(Comparator.comparing(Jogador::getDataNascimento)
-							.thenComparing(Jogador::getId))
+					.filter(jogador -> jogador.getIdTime()
+							.equals(idTimeBuscado))
+					.max(Comparator.comparingInt(Jogador::getNivelHabilidade))
 					.map(Jogador::getId).get();
 	}
 
-	// ok
+	@Desafio("buscarJogadorMaisVelho")
+	public Long buscarJogadorMaisVelho(Long idTime) {
+		Long idTimeBuscado = buscarEValidarPeloIdSeTimeExiste(idTime).getId();
+			return jogadores.stream()
+					.filter(jogador -> jogador.getIdTime().equals(idTimeBuscado))
+					.min(Comparator.comparing(Jogador::getDataNascimento)
+							.thenComparing(Jogador::getId)).get().getId();
+	}
+
 	@Desafio("buscarTimes")
 	public List<Long> buscarTimes() {
-			return times.stream().map(Time::getId).
-					collect(Collectors.toList());
+		return times.stream().map(Time::getId)
+			.sorted().collect(Collectors.toList());
 	}
 
-	// ok
 	@Desafio("buscarJogadorMaiorSalario")
 	public Long buscarJogadorMaiorSalario(Long idTime) {
-		Time time = buscarTimePorId(idTime);
+		Long idTimeBuscado = buscarEValidarPeloIdSeTimeExiste(idTime).getId();
 		return jogadores.stream()
-					.filter(jogador -> jogador.getIdTime().equals(idTime))
-					.max(Comparator.comparing(Jogador::getSalario)
-					.thenComparing(Jogador::getId)).get().getId();
+			.filter(jogador -> jogador.getIdTime().equals(idTimeBuscado))
+			.min(Comparator.comparing(Jogador::getSalario).reversed()
+			.thenComparing(Jogador::getId)).get().getId();
 	}
 
-	// ok
 	@Desafio("buscarSalarioDoJogador")
 	public BigDecimal buscarSalarioDoJogador(Long idJogador) {
-		Jogador jogador = buscarJogadorPorId(idJogador);
+		Jogador jogador = buscarEValidarPeloIdSeJogadorExiste(idJogador);
 		return jogador.getSalario();
 	}
 
-	// ok
 	@Desafio("buscarTopJogadores")
 	public List<Long> buscarTopJogadores(Integer top) {
 			return jogadores.stream()
@@ -146,12 +134,11 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 					.collect(Collectors.toList());
 	}
 
-	// ok
 	@Desafio("buscarCorCamisaTimeDeFora")
 	public String buscarCorCamisaTimeDeFora(Long timeDaCasa, Long timeDeFora) {
 
-		Time timeCasa = buscarTimePorId(timeDaCasa);
-		Time timeFora = buscarTimePorId(timeDeFora);
+		Time timeCasa = buscarEValidarPeloIdSeTimeExiste(timeDaCasa);
+		Time timeFora = buscarEValidarPeloIdSeTimeExiste(timeDeFora);
 
 		if(timeCasa.getCorUniformePrincipal().equals(timeFora.getCorUniformePrincipal())){
 			return timeFora.getCorUniformeSecundario();
@@ -160,14 +147,12 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 		}
 	}
 
-	// ok
-	public Jogador buscarJogadorPorId(Long idJogador) {
+	public Jogador buscarEValidarPeloIdSeJogadorExiste(Long idJogador) {
 		return jogadores.stream().filter(jogador -> jogador.getId().equals(idJogador)).
 				findAny().orElseThrow(() -> new JogadorNaoEncontradoException("Jogador não encontrado"));
 	}
 
-	// ok
-	public Time buscarTimePorId(Long idTime) {
+	public Time buscarEValidarPeloIdSeTimeExiste(Long idTime) {
 		return times.stream().filter(time -> time.getId().equals(idTime)).
 				findAny().orElseThrow(() -> new TimeNaoEncontradoException("Time não encontrado"));
 	}

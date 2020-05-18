@@ -11,7 +11,6 @@ public class Jogador {
     private LocalDate dataNascimento;
     private Integer nivelHabilidade;
     private BigDecimal salario;
-    private boolean capitao = false;
 
     public void setId(Long id) {
         this.id = id;
@@ -30,6 +29,9 @@ public class Jogador {
     }
 
     public void setNivelHabilidade(Integer nivelHabilidade) {
+        if (nivelHabilidade > 100 || nivelHabilidade < 0) {
+            throw new IllegalArgumentException();
+        }
         this.nivelHabilidade = nivelHabilidade;
     }
 
@@ -68,14 +70,6 @@ public class Jogador {
 
     public BigDecimal getSalario() {
         return salario;
-    }
-
-    public boolean isCapitao() {
-        return capitao;
-    }
-
-    public void setCapitao(boolean capitao) {
-        this.capitao = capitao;
     }
 
     @Override
