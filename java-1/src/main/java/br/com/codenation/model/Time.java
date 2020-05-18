@@ -12,7 +12,7 @@ public class Time {
     private String corUniformePrincipal;
     private String corUniformeSecundario;
     private List<Jogador> jogadores = new ArrayList<>();
-    private Long capitao;
+    private Jogador capitao;
 
     public void setId(Long id) {
         this.id = id;
@@ -71,11 +71,11 @@ public class Time {
         return corUniformeSecundario;
     }
 
-    public Long getCapitao() {
+    public Jogador getCapitao() {
         return capitao;
     }
 
-    public void setCapitao(Long capitao) {
+    public void setCapitao(Jogador capitao) {
         this.capitao = capitao;
     }
 

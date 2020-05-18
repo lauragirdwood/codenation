@@ -11,7 +11,7 @@ public class Jogador {
     private LocalDate dataNascimento;
     private Integer nivelHabilidade;
     private BigDecimal salario;
-    private Boolean capitao;
+    private boolean capitao = false;
 
     public void setId(Long id) {
         this.id = id;
@@ -35,14 +35,6 @@ public class Jogador {
 
     public void setSalario(BigDecimal salario) {
         this.salario = salario;
-    }
-
-    public Boolean getCapitao() {
-        return capitao;
-    }
-
-    public void setCapitao(Boolean capitao) {
-        this.capitao = capitao;
     }
 
     public Jogador(Long id, Long idTime, String nome, LocalDate dataNascimento, Integer nivelHabilidade, BigDecimal salario) {
@@ -76,6 +68,14 @@ public class Jogador {
 
     public BigDecimal getSalario() {
         return salario;
+    }
+
+    public boolean isCapitao() {
+        return capitao;
+    }
+
+    public void setCapitao(boolean capitao) {
+        this.capitao = capitao;
     }
 
     @Override
