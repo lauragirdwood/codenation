@@ -27,6 +27,6 @@ Aceleração Codenation Java - Online
 * Herança e Polimorfismo
 * *Exercícios*:
 * Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
-* Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7 ( em progresso :) )
+* Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7 [em progresso :)]
 * Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
 
