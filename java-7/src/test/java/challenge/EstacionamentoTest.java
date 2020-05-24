@@ -20,7 +20,8 @@ public class EstacionamentoTest {
 
     @Test(expected = NullPointerException.class)
     public void deveRetornarErroQuandoMotoristaNaoTemHabilitacao() {
-        Motorista.builder().withNome("Ada")
+        Motorista.builder()
+                .withNome("Ada")
                 .withIdade(17)
                 .withPontos(10)
                 .build();
@@ -36,17 +37,16 @@ public class EstacionamentoTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void deveRetorarErroQuandoIdadeNegativa() {
+    public void deveRetornarErroQuandoIdadeNegativa() {
         Motorista.builder()
                 .withIdade(-1);
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void deveRetorarErroQuandoPontosNegativos() {
+    public void deveRetornarErroQuandoPontosNegativos() {
         Motorista.builder()
                 .withPontos(-1);
     }
-
 
     @Test(expected = NullPointerException.class)
     public void deveRetornarErroQuandoNaoTemPlaca() {

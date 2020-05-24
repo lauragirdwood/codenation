@@ -1,6 +1,8 @@
 package challenge;
 
 
+import java.util.Objects;
+
 public class Motorista {
 
     private final String nome;
@@ -86,11 +88,15 @@ public class Motorista {
         }
 
         public MotoristaBuilder withIdade(int idade) {
+            if(idade < 0)
+                throw new IllegalArgumentException();
             this.idade = idade;
             return this;
         }
 
         public MotoristaBuilder withPontos(int pontos) {
+            if(pontos <= 0)
+                throw new IllegalArgumentException();
             this.pontos = pontos;
             return this;
         }
@@ -100,8 +106,11 @@ public class Motorista {
             return this;
         }
 
-
         public Motorista build() {
+            if(habilitacao.isEmpty())
+                throw new NullPointerException();
+            if (nome.isEmpty())
+                throw new NullPointerException();
             return new Motorista(nome, idade, pontos, habilitacao);
         }
     }
