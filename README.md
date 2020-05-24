@@ -29,7 +29,7 @@ Aceleração Codenation Java - Online
 - [x] Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
 
       O que aprendi neste desafio:
-      - Streams
+      - Streams, Interfaces
 - [x] Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7
 
       O que aprendi neste desafio:
