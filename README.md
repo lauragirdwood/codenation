@@ -12,7 +12,7 @@ Aceleração Codenation Java - Online
 * String em Java
 * Tipos de dados por valor e por referência em Java
 * Introdução ao Gradle
-* *Exercícios*:
+* *Desafios*:
 * Sequência de Fibonacci: https://github.com/lauragirdwood/codenation/tree/master/java-0
 * Criptografia de Júlio César v2: https://github.com/lauragirdwood/codenation/tree/master/java-6
 * Calculadora de Salário Líquido: https://github.com/lauragirdwood/codenation/tree/master/java-13
@@ -25,8 +25,14 @@ Aceleração Codenation Java - Online
 * Entendendo e Aplicando Herança em Java
 * Encapsulamento
 * Herança e Polimorfismo
-* *Exercícios*:
-* Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
-* Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7
-* Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
+* *Desafios*:
+- [x] Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
+      * O que aprendi nesse desafio:
+      - Streams
+- [x] Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7
+      * O que aprendi nesse desafio:
+      - Builder, Streams
+- [x]Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
+      * O que aprendi nesse desafio:
+      - Operações com Integer e Float
 
