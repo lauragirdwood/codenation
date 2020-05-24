@@ -32,7 +32,7 @@ Aceleração Codenation Java - Online
 - [x] Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7
       * O que aprendi nesse desafio:
       - Builder, Streams
-- [x]Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
+- [x] Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
       * O que aprendi nesse desafio:
-      - Operações com Integer e Float
+      - Biblioteca Math 
 
