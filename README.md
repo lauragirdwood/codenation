@@ -28,14 +28,14 @@ Aceleração Codenation Java - Online
 * *Desafios*:
 - [x] Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
 
-      O que aprendi nesse desafio:
+      O que aprendi neste desafio:
       - Streams
 - [x] Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7
 
-      O que aprendi nesse desafio:
+      O que aprendi neste desafio:
       - Builder, Streams, Exceptions
 - [x] Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
 
-      O que aprendi nesse desafio:
+      O que aprendi neste desafio:
       - Biblioteca Math 
 
