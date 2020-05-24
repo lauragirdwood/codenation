@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="challenge.EstacionamentoTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-05-24T21:54:31" hostname="crunch" time="0.027">
+  <properties/>
+  <testcase name="naoDeveTerCarroAutonomo" classname="challenge.EstacionamentoTest" time="0.003"/>
+  <testcase name="casoTodosSejamSeniorONovoMotoristaNaoTeraVaga" classname="challenge.EstacionamentoTest" time="0.017"/>
+  <testcase name="deveRetornarErroQuandoNaoTemCor" classname="challenge.EstacionamentoTest" time="0.001"/>
+  <testcase name="deveRetornarErroQuandoIdadeNegativa" classname="challenge.EstacionamentoTest" time="0.0"/>
+  <testcase name="casoPrimeiroMotoristaSejaSeniorEleNaoDeveSair" classname="challenge.EstacionamentoTest" time="0.0"/>
+  <testcase name="naoDeveEstacionarMotoristaSemPontos" classname="challenge.EstacionamentoTest" time="0.0"/>
+  <testcase name="deveEstacionar" classname="challenge.EstacionamentoTest" time="0.001"/>
+  <testcase name="naoDeveTerMotoristaDeMenor" classname="challenge.EstacionamentoTest" time="0.0"/>
+  <testcase name="deveRetornarErroQuandoMotoristaNaoTemNome" classname="challenge.EstacionamentoTest" time="0.001"/>
+  <testcase name="deveRetornarErroQuandoMotoristaNaoTemHabilitacao" classname="challenge.EstacionamentoTest" time="0.0"/>
+  <testcase name="naoDeveUltrapassarEstacionamento" classname="challenge.EstacionamentoTest" time="0.0"/>
+  <testcase name="deveRetornarErroQuandoPontosNegativos" classname="challenge.EstacionamentoTest" time="0.0"/>
+  <testcase name="deveRetornarErroQuandoNaoTemPlaca" classname="challenge.EstacionamentoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

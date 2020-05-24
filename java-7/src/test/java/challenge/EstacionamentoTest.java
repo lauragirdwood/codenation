@@ -122,7 +122,7 @@ public class EstacionamentoTest {
 
             Motorista motorista = Motorista.builder()
                     .withNome("Motorista " + indice)
-                    .withIdade(20)
+                    .withIdade(57)
                     .withPontos(3)
                     .withHabilitacao(Long.toString(current().nextLong()))
                     .build();
