@@ -39,3 +39,9 @@ Aceleração Codenation Java - Online
       O que aprendi neste desafio:
       - Biblioteca Math 
 
+## Módulo 3
+* Polimorfismo, Classes abstratas e Interfaces
+* Java Reflections
+* Anotations
+* *Desafio*:
+- [ ] Utilitário - Calculador de atributos de Classe: https://github.com/lauragirdwood/codenation/tree/master/java-8
