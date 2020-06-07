@@ -3,14 +3,11 @@ Esse repositório armazena os códigos dos desafios feitos em Java durante o meu
 A codenation oferece Programas de aceleração gratuitos para devs e cientistas de dados. https://www.codenation.dev/
 
 ## Módulo 1
-* Métodos, construtores e controles de acesso
-* Arrays, ArrayLists e controler de fluxo
-* Java - Tipos primitivos
-* Explicando os tipos de métodos existentes na programação OO
+* Métodos, construtores e modificadores de acesso
+* Strings, Arrays, ArrayLists
+* Tipos primitivos
 * Controle de Fluxo
 * Operadores lógicos e matemáticos da linguagem Java
-* Arraylist Java: Explorando a classe ArrayList no Java
-* String em Java
 * Tipos de dados por valor e por referência em Java
 * Introdução ao Gradle
 
@@ -24,9 +21,6 @@ A codenation oferece Programas de aceleração gratuitos para devs e cientistas 
 * Programação Orientada a Objetos com Java
 * Encapsulamento, Polimorfismo, Herança em Java
 * Java Exceptions
-* Entendendo e Aplicando Herança em Java
-* Encapsulamento
-* Herança e Polimorfismo
 
 **Desafios:**
 - [x] Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
@@ -45,7 +39,7 @@ A codenation oferece Programas de aceleração gratuitos para devs e cientistas 
 ## Módulo 3
 * Polimorfismo, Classes abstratas e Interfaces
 * Java Reflections
-* Anotations
+* Java Anotations
 
 **Desafio:**
 - [X] Utilitário - Calculador de atributos de Classe: https://github.com/lauragirdwood/codenation/tree/master/java-8
