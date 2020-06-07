@@ -1,5 +1,6 @@
 # Codenation aceleradev-java
 Esse repositório armazena os códigos dos desafios feitos em Java durante o meu desenvolvimento na Aceleração de Java Online da Codenation.
+
 A codenation oferece Programas de aceleração gratuitos para devs e cientistas de dados. https://www.codenation.dev/
 
 ## Módulo 1
@@ -58,7 +59,7 @@ A codenation oferece Programas de aceleração gratuitos para devs e cientistas 
 
  ## Módulo 7
 * Spring Security
-* Ducmentação com Swagger e Spring Fox
+* Documentação com API Swagger e Framework Spring Fox
 * Autenticação com Spring e OAuth2
 
 **Desafio:**
