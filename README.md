@@ -30,15 +30,15 @@ Aceleração Codenation Java - Online
 **Desafios:**
 - [x] Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
 
-      O que aprendi neste desafio:
+      O que mais exercitei neste desafio:
       - Streams, Interfaces
 - [x] Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7
 
-      O que aprendi neste desafio:
+      O que mais exercitei neste desafio:
       - Builder, Streams, Exceptions
 - [x] Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
 
-      O que aprendi neste desafio:
+      O que mais exercitei neste desafio:
       - Biblioteca Math 
 
 ## Módulo 3
@@ -47,4 +47,24 @@ Aceleração Codenation Java - Online
 * Anotations
 
 **Desafio:**
-- [ ] Utilitário - Calculador de atributos de Classe: https://github.com/lauragirdwood/codenation/tree/master/java-8
+- [X] Utilitário - Calculador de atributos de Classe: https://github.com/lauragirdwood/codenation/tree/master/java-8
+
+      O que mais exercitei neste desafio:
+      - Reflections, Annotations, Interfaces
+ 
+ ## Módulo 6
+* APIs, HTTP e REST
+* Spring Boot Bean Validation
+* HTTP Status Codes e Exception Handler
+
+**Desafios:**
+- [ ] Criando endpoints com Spring:
+- [ ] Gerador de frases do Monty Python utilizando Spring Boot e JPA:
+
+ ## Módulo 7
+* Spring Security
+* Ducmentação com Swagger e Spring Fox
+* Autenticação com Spring e OAuth2
+
+**Desafio:**
+- [ ] OAuth2 com Spring: 
