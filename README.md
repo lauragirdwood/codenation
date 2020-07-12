@@ -50,7 +50,7 @@ Esse repositório armazena os códigos dos desafios feitos em Java durante o meu
 * Maven
 
 **Desafio:**
-- [ ] Criando Entidades de Banco de Dados em Java: 
+- [ ] Criando Entidades de Banco de Dados em Java: https://github.com/lauragirdwood/codenation/tree/master/java-9
 
 
 ## Módulo 6
