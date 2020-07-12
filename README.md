@@ -24,15 +24,12 @@ Esse repositório armazena os códigos dos desafios feitos em Java durante o meu
 **Desafios:**
 - [x] Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
 
-      O que mais exercitei neste desafio:
       - Streams, Interfaces
 - [x] Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7
 
-      O que mais exercitei neste desafio:
       - Builder, Streams, Exceptions
 - [x] Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
 
-      O que mais exercitei neste desafio:
       - Biblioteca Math 
 
 ## Módulo 3
@@ -43,7 +40,6 @@ Esse repositório armazena os códigos dos desafios feitos em Java durante o meu
 **Desafio:**
 - [X] Utilitário - Calculador de atributos de Classe: https://github.com/lauragirdwood/codenation/tree/master/java-8
 
-      O que mais exercitei neste desafio:
       - Reflections, Annotations, Interfaces
 
 ## Módulo 4
@@ -51,6 +47,7 @@ Esse repositório armazena os códigos dos desafios feitos em Java durante o meu
 * Modelagem SQL
 * Hibernate JPA
 * PostgreSQL
+* Maven
 
 **Desafio:**
 - [ ] Criando Entidades de Banco de Dados em Java: 
