@@ -1,7 +1,5 @@
 # Codenation aceleradev-java-online
-Esse repositório armazena os códigos dos desafios feitos em Java durante o meu desenvolvimento na aceleração online da Codenation.
-
-A Codenation oferece programas de aceleração gratuitos para devs e cientistas de dados. https://www.codenation.dev/
+Esse repositório armazena os códigos dos desafios feitos em Java durante o meu desenvolvimento na aceleração online da Codenation https://www.codenation.dev/
 
 ## Módulo 1
 * Métodos, construtores e modificadores de acesso
@@ -56,7 +54,6 @@ A Codenation oferece programas de aceleração gratuitos para devs e cientistas 
 
 **Desafio:**
 - [ ] Criando Entidades de Banco de Dados em Java: 
-
 
 
 ## Módulo 6
