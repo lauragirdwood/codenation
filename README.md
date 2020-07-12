@@ -47,8 +47,19 @@ A Codenation oferece programas de aceleração gratuitos para devs e cientistas 
 
       O que mais exercitei neste desafio:
       - Reflections, Annotations, Interfaces
- 
- ## Módulo 6
+
+## Módulo 4
+* Spring Boot
+* Modelagem SQL
+* Hibernate JPA
+* PostgreSQL
+
+**Desafio:**
+- [ ] Criando Entidades de Banco de Dados em Java: 
+
+
+
+## Módulo 6
 * APIs, HTTP e REST
 * Spring Boot Bean Validation
 * HTTP Status Codes e Exception Handler
@@ -57,7 +68,7 @@ A Codenation oferece programas de aceleração gratuitos para devs e cientistas 
 - [ ] Criando endpoints com Spring:
 - [ ] Gerador de frases do Monty Python utilizando Spring Boot e JPA:
 
- ## Módulo 7
+## Módulo 7
 * Spring Security
 * Documentação com API Swagger e Framework Spring Fox
 * Autenticação com Spring e OAuth2
