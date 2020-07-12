@@ -1,15 +1,12 @@
-# Codenation aceleradev-java
-Aceleração Codenation Java - Online
+# Codenation aceleradev-java-online
+Esse repositório armazena os códigos dos desafios feitos em Java durante o meu desenvolvimento na aceleração online da Codenation https://www.codenation.dev/
 
 ## Módulo 1
-* Métodos, construtores e controles de acesso
-* Arrays, ArrayLists e controler de fluxo
-* Java - Tipos primitivos
-* Explicando os tipos de métodos existentes na programação OO
+* Métodos, construtores e modificadores de acesso
+* Strings, Arrays, ArrayLists
+* Tipos primitivos
 * Controle de Fluxo
 * Operadores lógicos e matemáticos da linguagem Java
-* Arraylist Java: Explorando a classe ArrayList no Java
-* String em Java
 * Tipos de dados por valor e por referência em Java
 * Introdução ao Gradle
 
@@ -23,28 +20,52 @@ Aceleração Codenation Java - Online
 * Programação Orientada a Objetos com Java
 * Encapsulamento, Polimorfismo, Herança em Java
 * Java Exceptions
-* Entendendo e Aplicando Herança em Java
-* Encapsulamento
-* Herança e Polimorfismo
 
 **Desafios:**
 - [x] Gerenciador de Times de Futebol: https://github.com/lauragirdwood/codenation/tree/master/java-1 
 
-      O que aprendi neste desafio:
       - Streams, Interfaces
 - [x] Controle de estacionamento: https://github.com/lauragirdwood/codenation/tree/master/java-7
 
-      O que aprendi neste desafio:
       - Builder, Streams, Exceptions
 - [x] Média, Moda e Mediana: https://github.com/lauragirdwood/codenation/tree/master/java-14
 
-      O que aprendi neste desafio:
       - Biblioteca Math 
 
 ## Módulo 3
 * Polimorfismo, Classes abstratas e Interfaces
 * Java Reflections
-* Anotations
+* Java Anotations
 
 **Desafio:**
-- [ ] Utilitário - Calculador de atributos de Classe: https://github.com/lauragirdwood/codenation/tree/master/java-8
+- [X] Utilitário - Calculador de atributos de Classe: https://github.com/lauragirdwood/codenation/tree/master/java-8
+
+      - Reflections, Annotations, Interfaces
+
+## Módulo 4
+* Spring Boot
+* Modelagem SQL
+* Hibernate JPA
+* PostgreSQL
+* Maven
+
+**Desafio:**
+- [ ] Criando Entidades de Banco de Dados em Java: 
+
+
+## Módulo 6
+* APIs, HTTP e REST
+* Spring Boot Bean Validation
+* HTTP Status Codes e Exception Handler
+
+**Desafios:**
+- [ ] Criando endpoints com Spring:
+- [ ] Gerador de frases do Monty Python utilizando Spring Boot e JPA:
+
+## Módulo 7
+* Spring Security
+* Documentação com API Swagger e Framework Spring Fox
+* Autenticação com Spring e OAuth2
+
+**Desafio:**
+- [ ] OAuth2 com Spring: 
